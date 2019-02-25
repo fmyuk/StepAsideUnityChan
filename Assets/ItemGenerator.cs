@@ -51,13 +51,6 @@ public class ItemGenerator : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
 
-    void OnBecameInvisible()
-    {
-        Destroy(carPrefab);
-        Destroy(conePrefab);
-        Destroy(coinPrefab);
     }
 }
